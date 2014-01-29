@@ -1,0 +1,22 @@
+Please start server with python before you open:
+1) $cd [/folder]
+2) $python -m SimpleHTTPServer
+
+The way forward:
+
+1) Add footer
+2) Add images and icons
+3) Cleanup width, lines to become full width and add grid (12 col, 20px gutter, 940px width) (usually I would do this first)
+4) Responsive site
+
+I would create a responsive site by using CSS media queries to a screen width of 410px max.
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 410px) { /* STYLES GO HERE */}
+
+From there edit the table so it collapses and make sure the rest of the content looks nice.
+
+5) W3 compliant test
+6) Browser cross consistent test
+
